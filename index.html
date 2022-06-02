@@ -1,0 +1,650 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="image/logo.svg"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a12c4bafc1.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="main.js"></script>
+    <title>유니클로 온라인 스토어</title>
+  </head>
+  <body>
+    <header id="header">
+      <nav id="nav">
+        <div class="logo">
+          <a href=""><img src="image/logo.svg" alt="logo"></a>
+        </div>
+        <ul class="category">
+          <li><a href="">WOMEN</a></li>
+          <li><a href="">MEN</a></li>
+          <li><a href="">KIDS</a></li>
+          <li><a href="">BABY</a></li>
+        </ul>
+        <ul class="service">
+          <li class="company"><a href=""><img src="image/company.svg" alt="company"><span>COMPANY</span></a></li>
+          <li class="store"><a href=""><img src="image/store.svg" alt="store"><span>매장안내</span></a></li>
+          <li class="cscenter"><a href=""><img src="image/cscenter.svg" alt="center"><span>고객센터</span></a></li>
+          <li class="login"><a href=""><img src="image/login.svg" alt="login"><span>로그인</span></a></li>
+          <li class="join"><a href=""><img src="image/join.svg" alt="join"><span>회원가입</span></a></li>
+          <li class="basket"><a href=""><img src="image/basket.svg" alt="basket"><span>장바구니<span class="zero">0</span></span></a></li>
+        </ul>
+        <div class="keyword">
+          <span class="typing">검색어 입력</span>
+          <input type="text" placeholder="키워드로 검색" class="keywordTyping">
+          <a href="" class="search">
+            <img src="image/search.svg" alt="search">
+          </a>
+        </div>
+        <ul class="tablet-service">
+          <li class="product-search"><a href=""><i class="fas fa-search"></i><span>상품검색</span></a></li>
+          <li class="wishlist"><a href=""><i class="far fa-heart"></i><span>위시리스트</span></a></li>
+          <li class="basket"><a href=""><i class="fas fa-shopping-cart"></i><span>장바구니</span></a></li>
+          <li class="bars"><i class="fas fa-bars"></i><span>메뉴</span></li>
+        </ul>
+      </nav>
+    </header>
+    <main id="main">
+      <ul class="tablet-nav">
+        <li class="active"><a href="">TOP</a></li>
+        <li><a href="">WOMEN</a></li>
+        <li><a href="">MEN</a></li>
+        <li><a href="">KIDS</a></li>
+        <li><a href="">BABY</a></li>
+      </ul>
+      <!-- Slider main container -->
+      <div class="swiper" id="mainSwiper">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+          <!-- Slides -->
+          <div class="swiper-slide vSlide summer">
+            <div class="swiper swiper1 swiper-horizontal">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <a href="">
+                    <img src="image/summer-1.jpg">
+                    <div class="description">
+                      <h1 class="large">HELLO, SUMMER</h1>
+                      <p>다채로운 컬러와 소재의 쇼트팬츠로<br>뜨거운 여름을 준비해보세요</p>
+                      <button>VIEW MORE</button>
+                    </div>
+                  </a>
+                </div>
+                <div class="swiper-slide">
+                  <a href="">
+                    <img src="image/summer-2.jpg">
+                    <div class="description">
+                      <h1 class="large">JEANS FOR<br>EVERYDAY LIFE</h1>
+                      <p>한여름 스타일링에도<br>빼놓을 수 없는 아이템 진</p>
+                      <button>VIEW MORE</button>
+                    </div>
+                  </a>
+                </div>
+                <div class="swiper-slide">
+                  <a href="">
+                    <img src="image/summer-3.jpg">
+                    <div class="description">
+                      <h1 class="large">AT OFFICE</h1>
+                      <p>스타일리시한 오피스 라이프를 위한<br>감탄팬츠</p>
+                      <button>VIEW MORE</button>
+                    </div>
+                  </a>
+                </div>
+                <div class="swiper-slide">
+                  <a href="">
+                    <img src="image/summer-4.jpg">
+                    <div class="description">
+                      <h1 class="large">AT OFFICE</h1>
+                      <p>사무실에서는 물론, 일상에서도 스타일리시하게<br>스마트 앵클 팬츠</p>
+                      <button>VIEW MORE</button>
+                    </div>
+                  </a>
+                </div>
+              </div>
+              <div class="controller">
+                <div class="swiper-button-prev">Prev</div>
+                <div class="swiper-pagination"></div>
+                <div class="swiper-button-next">Next</div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide vSlide linen">
+            <div class="swiper swiper2 swiper-horizontal">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <a href="">
+                    <img src="image/linen-1.jpg">
+                    <div class="description">
+                      <h1 class="large">LINEN COLLECTION</h1>
+                      <p>모던함과 고급스러움을<br>더하는 리넨 컬렉션</p>
+                      <button>VIEW MORE</button>
+                    </div>
+                  </a>
+                </div>
+                <div class="swiper-slide">
+                  <a href="">
+                    <img src="image/linen-2.jpg">
+                    <div class="description">
+                      <h1 class="large">CASUAL SHIRTS</h1>
+                      <p>서머 룩부터 워크 스타일까지<br>'여름의 클래식' 아이템</p>
+                      <button>VIEW MORE</button>
+                    </div>
+                  </a>
+                </div>
+                <div class="swiper-slide">
+                  <a href="">
+                    <img src="image/linen-3.jpg">
+                    <div class="description">
+                      <h1 class="large">SLEEVELESS<br>SPECIALS</h1>
+                      <p>이번 여름 가장 트렌디한<br>패션 아이템으로 떠오르는 슬리브리스</p>
+                      <button>VIEW MORE</button>
+                    </div>
+                  </a>
+                </div>
+                <div class="swiper-slide">
+                  <a href="">
+                    <img src="image/linen-4.jpg">
+                    <div class="description">
+                      <h1 class="large">POLO SHIRT</h1>
+                      <p>선택의 폭이 넓은 디자인과<br>다양한 컬러 베리에이션</p>
+                      <button>VIEW MORE</button>
+                    </div>
+                  </a>
+                </div>
+              </div>
+              <div class="controller">
+                <div class="swiper-button-prev">Prev</div>
+                <div class="swiper-pagination"></div>
+                <div class="swiper-button-next">Next</div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide vSlide marni">
+            <div class="swiper swiper3 swiper-horizontal">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <a href="">
+                    <img src="image/marni-1.jpg">
+                    <img src="image/marnilogo.svg" class="productLogo">
+                    <div class="description">
+                      <h1>UNIQLO and MARNI</h1>
+                      <p>2022 Spring / Summer Collection</p>
+                      <p class="small">[5/20(금) 판매 개시]</p>
+                      <button>VIEW MORE</button>
+                    </div>
+                  </a>
+                </div>
+                <div class="swiper-slide">
+                  <a href="">
+                    <img src="image/marni-2.jpg">
+                    <img src="image/marnilogo.svg" class="productLogo">
+                    <div class="description">
+                      <h1>UNIQLO and MARNI</h1>
+                      <p>2022 Spring / Summer Collection</p>
+                      <p class="small">MEN ITEM LINEUP</p>
+                      <button>VIEW MORE</button>
+                    </div>
+                  </a>
+                </div>
+                <div class="swiper-slide">
+                  <a href="">
+                    <img src="image/marni-3.jpg">
+                    <img src="image/marnilogo.svg" class="productLogo">
+                    <div class="description">
+                      <h1>UNIQLO and MARNI</h1>
+                      <p>2022 Spring / Summer Collection</p>
+                      <p class="small">WOMEN ITEM LINEUP</p>
+                      <button>VIEW MORE</button>
+                    </div>
+                  </a>
+                </div>
+                <div class="swiper-slide">
+                  <a href="">
+                    <img src="image/marni-4.jpg">
+                    <img src="image/marnilogo.svg" class="productLogo">
+                    <div class="description">
+                      <h1>UNIQLO and MARNI</h1>
+                      <p>2022 Spring / Summer Collection</p>
+                      <p class="small">판매 매장 안내</p>
+                      <button>VIEW MORE</button>
+                    </div>
+                  </a>
+                </div>
+              </div>
+              <div class="controller">
+                <div class="swiper-button-prev">Prev</div>
+                <div class="swiper-pagination"></div>
+                <div class="swiper-button-next">Next</div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide vSlide airism">
+            <div class="swiper swiper4 swiper-horizontal">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <a href="">
+                    <img src="image/airism-1.jpg">
+                    <img src="image/airismlogo.png" class="productLogo">
+                    <div class="description">
+                      <h1>뛰어난 통기성으로<br>땀이 빠르게 말라<br>더운 날씨에도 쾌적하게</h1>
+                      <p>AIRism 마이크로 메쉬</p>
+                      <button>VIEW MORE</button>
+                    </div>
+                  </a>
+                </div>
+                <div class="swiper-slide">
+                  <a href="">
+                    <img src="image/airism-2.jpg">
+                    <img src="image/airismlogo.png" class="productLogo">
+                    <div class="description">
+                      <h1>매끈한 감촉,<br>땀을 흘려도 산뜻하고 쾌적하게</h1>
+                      <p>AIRism 브라탑</p>
+                      <button>VIEW MORE</button>
+                    </div>
+                  </a>
+                </div>
+                <div class="swiper-slide">
+                  <a href="">
+                    <img src="image/airism-3.jpg">
+                    <img src="image/airismlogo.png" class="productLogo">
+                    <div class="description">
+                      <h1>아이들도 에어리즘으로<br>땀 걱정없이 산뜻하게</h1>
+                      <p>KIDSㆍBABY AIRism 이너웨어</p>
+                      <button>VIEW MORE</button>
+                    </div>
+                  </a>
+                </div>
+                <div class="swiper-slide">
+                  <a href=""><video src="image/airism-4.mp4" controls autoplay muted></video>
+                    <img src="image/airismlogo.png" class="productLogo">
+                    <div class="description">
+                      <h1>기분 좋은 일상을 위한<br>쾌적 테크놀로지</h1>
+                      <p>AIRism 이너웨어</p>
+                      <button>VIEW MORE</button>
+                    </div>
+                  </a>
+                </div>
+              </div>
+              <div class="controller">
+                <div class="swiper-button-prev">Prev</div>
+                <div class="swiper-pagination"></div>
+                <div class="swiper-button-next">Next</div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide vSlide sport">
+            <div class="swiper swiper5 swiper-horizontal">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <a href="">
+                    <img src="image/sport-1.jpg">
+                    <img src="image/sportlogo.png" class="productLogo">
+                    <div class="description">
+                      <h1>일상과 스포츠, 모든 활동을 위한<br>기능성 데일리 웨어</h1>
+                      <p>DRY-EX 크루넥 T</p>
+                      <button>VIEW MORE</button>
+                    </div>
+                  </a>
+                </div>
+                <div class="swiper-slide">
+                  <a href="">
+                    <img src="image/sport-2.jpg">
+                    <img src="image/sportlogo.png" class="productLogo">
+                    <div class="description">
+                      <h1>쾌적한 활동을 위한 피트감,<br>에어리즘 소재로<br>시원함과 매끄러운 감촉</h1>
+                      <p>와이어리스브라(액티브스퀘어넥) &<br>AIRism UV PROTECTION 레깅스</p>
+                      <button>VIEW MORE</button>
+                    </div>
+                  </a>
+                </div>
+                <div class="swiper-slide">
+                  <a href="">
+                    <img src="image/sport-3.jpg">
+                    <img src="image/sportlogo.png" class="productLogo">
+                    <div class="description">
+                      <h1>신축성이 좋아, 스포츠 씬 뿐만 아니라<br>일상에서도 활용 가능한 아이템</h1>
+                      <p>울트라 스트레치 액티브 팬츠</p>
+                      <button>VIEW MORE</button>
+                    </div>
+                  </a>
+                </div>
+                <div class="swiper-slide">
+                  <a href="">
+                    <img src="image/sport-4.jpg">
+                    <img src="image/sportlogo.png" class="productLogo">
+                    <div class="description">
+                      <h1>DRY-EX 기능으로<br>땀을 흘려도 보송 보송한 착용감</h1>
+                      <p>KIDS DRY-EX 크루넥 T</p>
+                      <button>VIEW MORE</button>
+                    </div>
+                  </a>
+                </div>
+              </div>
+              <div class="controller">
+                <div class="swiper-button-prev">Prev</div>
+                <div class="swiper-pagination"></div>
+                <div class="swiper-button-next">Next</div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide vSlide theory">
+            <div class="swiper swiper6 swiper-horizontal">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <a href="">
+                    <img src="image/theory-1.jpg">
+                    <img src="image/theorylogo.png" class="productLogo">
+                    <div class="description">
+                      <h1>UNIQLO x Theory</h1>
+                      <p>2022 Spring/Summer Collection</p>
+                      <button>VIEW MORE</button>
+                    </div>
+                  </a>
+                </div>
+                <div class="swiper-slide">
+                  <a href="">
+                    <img src="image/theory-2.jpg">
+                    <img src="image/ulogo.png" class="productLogo">
+                    <div class="description">
+                      <h1>Uniqlo U</h1>
+                      <p>2022 Spring/Summer Collection</p>
+                      <button>VIEW MORE</button>
+                    </div>
+                  </a>
+                </div>
+                <div class="swiper-slide">
+                  <a href="">
+                    <img src="image/theory-3.jpg">
+                    <img src="image/Kurogouchilogo.png" class="productLogo">
+                    <div class="description">
+                      <h1>Uniqlo and Mame Kurogouchi</h1>
+                      <p>2022 Spring/Summer Collection</p>
+                      <button>VIEW MORE</button>
+                    </div>
+                  </a>
+                </div>
+                <div class="swiper-slide">
+                  <a href="">
+                    <img src="image/theory-4.jpg">
+                    <img src="image/jwandersonlogo.svg" class="productLogo">
+                    <div class="description">
+                      <h1>UNIQLO and JW ANDERSON</h1>
+                      <p>2022 Spring/Summer Collection</p>
+                      <button>VIEW MORE</button>
+                    </div>
+                  </a>
+                </div>
+              </div>
+              <div class="controller">
+                <div class="swiper-button-prev">Prev</div>
+                <div class="swiper-pagination"></div>
+                <div class="swiper-button-next">Next</div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide vSlide mickey">
+            <div class="swiper swiper7 swiper-horizontal">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <a href="">
+                    <img src="image/mickey-1.jpg">
+                    <div class="description">
+                      <h1>Mickey & Friends Art<br>by Steven Harrington</h1>
+                      <p>LA에서 활동 중인 아티스트 스티븐 해링턴이<br>그려내는 원색의 컬러풀한 미키와 UT의 만남</p>
+                      <button>VIEW MORE</button>
+                      <span>ⓒDisney</span>
+                    </div>
+                  </a>
+                </div>
+                <div class="swiper-slide">
+                  <a href="">
+                    <img src="image/mickey-2.jpg">
+                    <div class="description">
+                      <h1>Lisa Larson</h1>
+                      <p>그녀가 만들어내는 사랑스러운 동물들을<br>룸 웨어를 통해 선보입니다</p>
+                      <button>VIEW MORE</button>
+                      <span>ⓒ Lisa&Johanna Larson</span>
+                    </div>
+                  </a>
+                </div>
+                <div class="swiper-slide">
+                  <a href="">
+                    <img src="image/mickey-3.jpg">
+                    <img src="image/paul&joelogo.png" class="productLogo">
+                    <div class="description">
+                      <h1>Paul & Joe</h1>
+                      <p>화사한 봄 컬러가 돋보이는<br>유니클로 오리지널 콜라보레이션</p>
+                      <button>VIEW MORE</button>
+                      <span>ALL PAUL & JOE PRINTS ARE COPYRIGHTED </span>
+                    </div>
+                  </a>
+                </div>
+                <div class="swiper-slide">
+                  <a href="">
+                    <img src="image/mickey-4.jpg">
+                    <div class="description">
+                      <h1>UTGP 2022<br>전 세계 수상 디자인 발표!</h1>
+                      <p>전 세계 14,000건의 출품작 중 11건이<br>수상작으로 선정되었습니다<br>수상작 컬렉션 5월 27일 판매 예정</p>
+                      <button>VIEW MORE</button>
+                      <span>ⓒ2022 Peanuts Worldwide LLC</span>
+                    </div>
+                  </a>
+                </div>
+              </div>
+              <div class="controller">
+                <div class="swiper-button-prev">Prev</div>
+                <div class="swiper-pagination"></div>
+                <div class="swiper-button-next">Next</div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide vSlide lifewear">
+            <div class="swiper swiper8 swiper-horizontal">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <a href="">
+                    <img src="image/lifewear-1.jpg">
+                    <img src="image/lifewearlogo.png" class="productLogo">
+                    <div class="description">
+                      <h1>LifeWear magazine<br>2022 Spring & Summer</h1>
+                      <p>The Joys of Clothing</p>
+                      <button>VIEW MORE</button>
+                    </div>
+                  </a>
+                </div>
+                <div class="swiper-slide">
+                  <a href="">
+                    <img src="image/lifewear-2.jpg">
+                    <div class="description">
+                      <h1>남성 이너웨어</h1>
+                      <p>이번 시즌 쾌적하게 착용할 수 있는<br>맨즈 이너 라인업을 확인해 보세요</p>
+                      <button>VIEW MORE</button>
+                    </div>
+                  </a>
+                </div>
+                <div class="swiper-slide">
+                  <a href="">
+                    <img src="image/lifewear-3.jpg">
+                    <div class="description">
+                      <h1>Masterpiece</h1>
+                      <p>Simplicity, made even better<br>완벽을 추구하는 옷<br>모두의 삶을 풍요롭게 만들기 위한 옷</p>
+                      <button>VIEW MORE</button>
+                    </div>
+                  </a>
+                </div>
+                <div class="swiper-slide">
+                  <a href="">
+                    <img src="image/lifewear-4.jpg">
+                    <img src="image/lifewearlogo.png" class="productLogo">
+                    <div class="description">
+                      <h1>LifeWear COLLECTION<br>2022 Spring & Summer</h1>
+                      <p>새로운 라이프스타일에서 영감을 받은<br>컬렉션으로 여러분을 초대합니다</p>
+                      <button>VIEW MORE</button>
+                    </div>
+                  </a>
+                </div>
+              </div>
+              <div class="controller">
+                <div class="swiper-button-prev">Prev</div>
+                <div class="swiper-pagination"></div>
+                <div class="swiper-button-next">Next</div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide vSlide eco">
+            <div class="swiper swiper9 swiper-horizontal">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <a href="">
+                    <img src="image/eco-1.jpg">
+                    <div class="description">
+                      <h1>환경친화적으로 만든 진</h1>
+                      <p>유니클로는 지구의 미래를 위해<br>지속가능한 진을 만듭니다</p>
+                      <button>VIEW MORE</button>
+                    </div>
+                  </a>
+                </div>
+                <div class="swiper-slide">
+                  <a href="">
+                    <img src="image/eco-2.jpg">
+                    <div class="description">
+                      <h1>옷을 관리하는 방법</h1>
+                      <p>코튼 셔츠를 오래 입기 위한 지속가능한 방법들</p>
+                      <button>VIEW MORE</button>
+                    </div>
+                  </a>
+                </div>
+                <div class="swiper-slide">
+                  <a href="">
+                    <img src="image/eco-3.jpg">
+                  </a>
+                </div>
+                <div class="swiper-slide">
+                  <a href="">
+                    <img src="image/eco-4.jpg">
+                  </a>
+                </div>
+              </div>
+              <div class="controller">
+                <div class="swiper-button-prev">Prev</div>
+                <div class="swiper-pagination"></div>
+                <div class="swiper-button-next">Next</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- If we need pagination -->
+        <div class="swiper-pagination"></div>
+      </div>
+    </main>
+    <footer id="footer">
+      <div class="footer-container">
+        <ul class="menu">
+          <li><a href="">주문/배송조회</a></li>
+          <li><a href="">매장안내</a></li>
+          <li><a href="">고객센터</a></li>
+          <li><a href="">회사정보</a></li>
+          <li><a href="">채용정보</a></li>
+          <li><a href="">대량구매</a></li>
+          <li><a href="">권장 이용환경</a></li>
+          <li><a href="">이용 약관</a></li>
+          <li><a href="">개인정보처리방침</a></li>
+        </ul>
+        <div class="uniqlo">
+          <div class="information">
+            <ul class="business">
+              <li>에프알엘코리아(주) 대표 : 정현석, 하타세 사토시</li>
+              <li>주소 : 서울시 송파구 올림픽로 300(롯데월드타워 24층)</li>
+              <li>통신판매업신고번호 : 2019-서울송파-2369</li>
+              <li class="business-info">사업자등록번호 : 104-81-91189<a href="" class="check">사업자 정보확인</a></li>
+              <li>호스팅서비스사업자 : 롯데쇼핑(주) e커머스사업부</li>
+            </ul>
+            <div class="cs">
+              <h3>고객만족센터</h3>
+              <ul>
+                <li>TEL : 080-722-3300</li>
+                <li>FAX : 02-3213-7960</li>
+                <li>E-mail: <span>uniqlocs@uniqlo.co.kr [19년 8월 이전 상담내역]</span></li>
+              </ul>
+            </div>
+          </div>
+          <div class="customer">
+            <div class="insurance">
+              <h3>서울보증보험 구매안전서비스(쇼핑몰보증보험)</h3>
+              <a href="" class="check">서비스 가입 사실 확인</a>
+              <ul>
+                <li>고객님은 안전거래를 위해 현금 등으로 결제 시 결제금액 전액에 대해 저희 쇼핑몰에서 가입한 구매안전서비스 "소비자피해보상보험서비스"를 이용하실 수 있습니다.</li>
+                <li>보상대상: 미배송, 반품/환불거부, 쇼핑몰부도</li>
+                <li>구매안전서비스를 통하여 주문하시고 서울보증보험에서 발행하는 보험계약 체결내역서를 반드시 확인하시기 바랍니다.</li>
+              </ul>
+            </div>
+            <div class="notice">
+              <h3>콘텐츠산업진흥법에 의한 콘텐츠보호안내</h3>
+              <a href="" class="check">자세히보기</a>
+              <div class="detail">
+                <h3>콘텐츠산업진흥법에 의한 표시</h3>
+                <ul>
+                  <li><span>·</span> 콘텐츠의 명칭 : 상품정보 및 이벤트 정보 등</li>
+                  <li><span>·</span> 콘텐츠의 제작 및 표시 : 2018년 04월 26일<br>&nbsp;&nbsp;(또는, 콘텐츠가 업그레이드 된 경우 그 갱신일)</li>
+                  <li><span>·</span> 콘텐츠의 제작자 : 에프알엘코리아 주식회사<br>&nbsp;&nbsp;서울시 송파구 올림픽로 300 (롯데월드타워 24층)<br>&nbsp;&nbsp;TEL : 080-722-3300, FAX : 02-3213-7960</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="copyright">
+          <div class="online">
+            <p>유니클로 공식 온라인스토어는 <span>롯데 LECS(www.lecs.com)</span>를 이용하고 있습니다.</p>
+            <p>COPYRIGHT(C) UNIQLO CO., LTD. ALL RIGHTS RESERVED</p>
+          </div>
+          <ul class="sns">
+            <li><a href="" class="instagram"></a></li>
+            <li><a href="" class="instagramkid"></a></li>
+            <li><a href="" class="naver"></a></li>
+            <li><a href="" class="kakaotalk"></a></li>
+            <li><a href="" class="youtube"></a></li>
+            <li><a href="" class="facebook"></a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="tablet-footer">
+        <ul class="tablet-menu">
+          <li><a href="">매장안내</a></li>
+          <li><a href="">로그인</a></li>
+          <li><a href="">주문배송조회</a></li>
+          <li><a href="">위시리스트</a></li>
+          <li><a href="" class="sns">APP & SNS</a></li>
+          <li><a href="">고객센터</a></li>
+          <li><a href="">회사정보</a></li>
+        </ul>
+        <div class="tablet-business">
+          <div>
+            <p>유니클로 온라인스토어는 롯데 LECS(www.less.com)를 이용하고 있습니다.</p>
+          </div>
+          <div>
+            <p>에프알엘코리아(주) | 대표이사 정현석, 하타세 사토시</p>
+            <p>서울시 송파구 올림픽로 300(롯데월드타워 24층)</p>
+            <p>사업자등록번호 : 104-81-91189 / 통신판매업 신고번호 : 2019-서울송파-2369</p>
+          </div>
+          <div>
+            <p>고객만족센터 : 080-722-3300 / uniqlocs@uniqlo.co.kr</p>
+            <p>호스팅 서비스 사업자 : 롯데쇼핑(주) e 커머스 사업부</p>
+          </div>
+          <ul>
+            <li><a href="">이용 약관</a></li>
+            <li><a href="">개인정보처리방침</a></li>
+            <li><a href="">사업자정보확인</a></li>
+            <li><a href="">쇼핑몰보증보험</a></li>
+          </ul>
+          <p class="copyright">COPYRIGHT(C) UNIQLO CO.,LTD. ALL RIGHTS RESERVED</p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
